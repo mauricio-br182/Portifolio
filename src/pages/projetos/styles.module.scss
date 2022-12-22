@@ -1,0 +1,98 @@
+.titleContent{
+    display: flex;
+    justify-content: center;
+
+    h1{
+        font-size: 3.4rem;
+        color: #fff;
+        margin-bottom: 4rem;
+        span{
+            color: var(--pink);
+        }
+    }
+
+    
+}
+.projectsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 720px;
+    margin: 0 auto;
+    .projContent{
+        margin-bottom: 4rem;
+        background-color: var(--gray-dark);
+        padding: 1.8rem 2rem;
+        width: fit-content;
+
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        border-radius: .2rem;
+        img{
+            border-radius: .2rem;
+        }
+        .techs{
+            margin-top: 2rem;
+            span{
+                font-size: 1rem;
+                margin-top: .8rem;
+                background: var(--gray);
+
+                padding: 0.2rem 0.6rem;
+                border-radius: 1rem;
+                
+                & + span{
+                    margin-left: 5px;
+                }
+            }
+        }
+        .spanName{
+            margin-top: 1.5rem;
+            font-size: 1.2rem;
+            color: var(--gray-light);
+        }
+        h2{    
+            font-size: 1.6rem;
+        }
+        a{
+            margin-top: 2rem;
+            
+            background-color: var(--pink);
+            padding: 1rem 2rem;
+            width: fit-content;
+            border-radius: .4rem;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 800;
+            transition: all .3s;
+            span{
+                font-size: 1.2rem;
+            }
+        }
+        a:hover{
+            filter: brightness(.7);
+        }
+    }
+}
+@media (max-width: 720px) {
+    .titleContent{
+        h1{
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+    .projectsContainer{
+        grid-template-columns: 1fr;
+        
+        .projContent{
+            margin: 2rem auto;
+            
+            img{
+                width: 260px;
+                height: 160px;
+            }
+        }
+    }
+}

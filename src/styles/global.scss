@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white: #fff;
+   
+    --black: #010101;
+
+    --purple: #8f059b;
+   
+    --pink: #a30a63;
+    
+    --pink-ligth: #ff32aa58;
+
+    --gray-light: #a3a3a3;
+    
+    --gray: #373737;
+
+    --gray-dark: #1a1a1a;
+
+    
+   }
+
+body, input, select, textarea, button{
+    font: 400 1rem  sans-serif;
+}
+
+body{
+    background: rgb(0, 0, 0);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
