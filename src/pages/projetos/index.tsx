@@ -60,7 +60,7 @@ export default function Projetos(){
                         </div>
                         <span className={styles.spanName}>Nome do Projeto</span>
                         <h2>Conversor de Dolar</h2>
-                        <a href="https://consvertmoney-6fg2wvxwp-mauricio-br182.vercel.app/" target={"_blank"}>
+                        <a href="https://consvertmoney-6fg2wvxwp-mauricio-br182.vercel.app/">
                         <span>
                             Ver Projeto 
                         </span> 
